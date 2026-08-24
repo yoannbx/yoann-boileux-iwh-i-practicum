@@ -43,6 +43,7 @@ app.post('/update-cobj', async (req, res) => {
     const newRecord = {
         properties: {
             name: req.body.name,
+            pet_name: req.body.name,
             age: req.body.age,
             race: req.body.race
         }
